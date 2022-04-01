@@ -1,0 +1,21 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 1 abr 2022, 19:05:51
+    Author     : DAW
+*/
+
+.botones {
+     -fx-background-color: #586f7c;
+}
+
+.cajaTexto {
+     -fx-background-color: #f4f4f9;
+}
+
+.fondo{
+    -fx-background-color:#b8dbd9;
+}
