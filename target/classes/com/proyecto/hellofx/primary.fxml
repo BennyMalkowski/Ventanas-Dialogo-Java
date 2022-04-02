@@ -21,7 +21,7 @@
             <Button fx:id="botonAlertaWarning" layoutX="318.0" layoutY="107.0" mnemonicParsing="false" onAction="#Alert_Warning" prefHeight="25.0" prefWidth="204.0" styleClass="botones" stylesheets="@myCSS.css" text="Alerta Warning" textFill="WHITE" />
             <Separator layoutX="47.0" layoutY="59.0" prefHeight="3.0" prefWidth="506.0" />
             <Separator layoutX="46.0" layoutY="283.0" prefHeight="3.0" prefWidth="506.0" styleClass="fondo" stylesheets="@myCSS.css" />
-            <TextArea editable="false" layoutX="104.0" layoutY="326.0" mouseTransparent="true" prefHeight="39.0" prefWidth="391.0" promptText="Aquí aparecerá la respuesta del Usuario" styleClass="cajaTexto" stylesheets="@myCSS.css" />
+            <TextArea fx:id="etiquetaRespuestas" editable="false" layoutX="104.0" layoutY="320.0" mouseTransparent="true" prefHeight="65.0" prefWidth="391.0" promptText="Aquí aparecerá la respuesta del Usuario" styleClass="cajaTexto" stylesheets="@myCSS.css" />
             <Text fill="#2f4550" layoutX="190.0" layoutY="44.0" strokeType="OUTSIDE" strokeWidth="0.0" text="VENTANAS DE DIÁLOGOS">
                <font>
                   <Font name="System Bold" size="18.0" />
